@@ -7,3 +7,11 @@
 ### How to optimize a functino?
 
 * https://www.cvxpy.org/index.html
+
+# Misc
+
+### How to disable active admin filters?
+
+     ActiveAdmin.register Post do
+       config.filters = false
+     end
