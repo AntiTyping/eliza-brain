@@ -15,3 +15,11 @@
      ActiveAdmin.register Post do
        config.filters = false
      end
+
+# Active Admin
+
+### Add action link to index row
+
+     actions  do |customer|
+       item "View2", admin_customer_path(customer)
+     end
