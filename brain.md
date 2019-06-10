@@ -1,3 +1,16 @@
+# Setup
+### Fish shell
+
+     brew install fish
+
+     You will need to add:
+     /usr/local/bin/fish
+     to /etc/shells.
+
+     Then run:
+     chsh -s /usr/local/bin/fish
+     to make fish your default shell.
+
 # iOS
 ### Convert p12 certificate to pem
 
